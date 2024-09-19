@@ -1,3 +1,4 @@
+/*
 // alert("Ola mundo- externo")
 
 // DECLAARANDO AS VARIAVEIS 
@@ -42,3 +43,20 @@ console.log(aluno)
 //array / conjunto de informações 
 let tecnologias=["java", "C#", "HTML", "CSS"]
 console.log(tecnologias)
+
+*/
+
+//conversões (numero para texto, texto para numero)
+//float para inteiro
+let numerofloat = 123.456;
+console.log(parseInt(numerofloat));
+//string para float
+let numeroString = "654.231";
+console.log(parseFloat(numeroString));
+//numero inteiro para string
+let numeroInteiro =780;
+console.log(numeroInteiro.toString());
+//ver o tipo da variavel
+let verTipo = typeof numerofloat
+console.log(verTipo);
+
